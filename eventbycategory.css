@@ -163,7 +163,7 @@ font-size: large;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./cncrt.jpg);
+  background-image: url(./vnt.jpg);
   border-radius: 8px;
 
 color: white;
@@ -197,6 +197,11 @@ left: 0px;
 top: 827px;
 
 background: #CD9C27;
+}
+
+
+.item >.item1{
+ 
 }
 
 /* 
@@ -299,19 +304,18 @@ border-radius: 999px;
 }
 
 .box{
-  position: absolute;
+position: absolute;
 width: 98px;
 height: 56px;
 left: 2%;
 top: 10%;
-
-background: #C4C4C4;
-border: 1px solid #000000;
+/* background: #C4C4C4;
+border: 1px solid #000000; */
 box-sizing: border-box;
 border-radius: 20px;
 }
 
-.box1{
+/* .box1{
   position: absolute;
 width: 98px;
 height: 56px;
@@ -322,7 +326,7 @@ background: #ffffff;
 border: 1px solid #000000;
 box-sizing: border-box;
 border-radius: 20px;
-}
+} */
 
 .box2{
   position: absolute;
@@ -458,6 +462,65 @@ border-radius: 20px;
 }
 
 
+#gsearch{
+  background: #ffffff;
+box-sizing: border-box;
+border-radius: 800px;
+}
 
 
 
+.dropbtn {
+  background-color: #989998;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 600px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+#week{
+  color: #CD9C27;
+  border-radius: 999px;
+  position: absolute;
+  width: 98px;
+  height: 56px;
+ margin-top: 20%;
+  
+  
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #CD9C27;}

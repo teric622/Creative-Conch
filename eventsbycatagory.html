@@ -53,9 +53,18 @@
 
 
 <nav class= "Search">
+    <form>       <i class="fa fa-search"></i>
+           
+            Search
+    </label>
+        <input type="search" id="gsearch" name="gsearch">
+      </form>
    
+  
    
-   <h3 class="searchnav"> <i class="fa fa-search"></i> Search</h3>
+      
+
+
 </nav>
 
 
@@ -63,14 +72,15 @@
 <div class = "all">
 <div class ="container">
 <div>
-<h3 class="searchnav">🔎 Search</h3>
+    
+<h3 class="searchnav"></h3>
 </div>
 </div>
 <br>
 <br>
     </div>
     </nav> 
-   
+  
 
 
 
@@ -80,7 +90,7 @@
     <div class = "container">
         <div class="app2">
           <h1></h1>
-          
+          <!-- Need a function that grabs img and date and time from creat an event page -->
           <ul class="hs">
               <li class="item">
                   <p2>Title</p2>
@@ -202,12 +212,31 @@
 
 
 <div class="box">
-    <h3>All</h3>
-</div>
+  
+<div class="dropdown">
+    <button class="dropbtn"> All Listed </button>
+    <div class="dropdown-content">
+      <a href="#">All</a>
+      <a href="#">Event 1</a>
+      <a href="#">Event 2</a>
+    </div>
+  </div>
 
-<div class="box1">
-    <h3></h3>
+
+  <form>
+    <!-- <label for="week">Select a week:</label> -->
+    <input type="week" id="week" name="week">
+  </form>
 </div>
+<!-- 
+<div class="box1">
+    
+    <div class="dropdown-content">
+        <a href="#">All</a>
+        <a href="#">Event 1</a>
+        <a href="#">Event 2</a>
+      </div>
+</div> -->
 
 
 <div class="box2">
@@ -257,7 +286,7 @@
 
 
 
-
+<script src="./eventbycatagory.js"></script>
 
 
     </body>
