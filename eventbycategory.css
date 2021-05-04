@@ -34,10 +34,26 @@ background-color:#CD9C27;
 position: absolute;
 width: 126px;
 height: 23px;
-left: 70%;
+left: 72%;
 top: 25px;
+cursor:pointer;
 
 }
+
+.corner:hover{
+  
+    color: #fff;
+ 
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+
+
+
 
 .corner2{
   position: absolute;
@@ -45,23 +61,49 @@ width: 126px;
 height: 23px;
 left: 80%;
 top: 25px;
-
+cursor:pointer;
 
 }
+.corner2:hover{
+  
+  color: rgb(2, 223, 2);
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+
+
+
+
 
 
 .corner3{
   position: absolute;
   width: 126px;
   height: 23px;
-  left: 90%;
+  left: 87%;
   top: 25px;
-  
-  background: #000000;
-  border-radius: 20px;
-
-
+  cursor:pointer;
 }
+
+.corner3:hover{
+  
+  color: #fff;
+
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+
+
+
 
 
 /* .word >h3{
@@ -160,7 +202,7 @@ font-size: large;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(./vnt.jpg);
+  background-image: url(./apppl.jpeg);
   border-radius: 8px;
 
 color: rgb(19, 11, 11);
